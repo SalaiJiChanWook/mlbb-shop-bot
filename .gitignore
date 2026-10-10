@@ -1,0 +1,8 @@
+.env
+venv/
+storage/database.sqlite3
+storage/daily_reports/*
+storage/slips/*
+storage/*.log
+__pycache__/
+*.pyc

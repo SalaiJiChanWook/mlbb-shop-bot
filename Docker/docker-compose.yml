@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  mlbb-bot:
+    build: .
+    container_name: mlbb_automation_bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./storage:/app/storage
